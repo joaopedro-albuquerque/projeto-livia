@@ -494,14 +494,14 @@
               canvasC.style.display = 'initial';
               setTimeout(anim, 1500);
                const photoContainer = document.getElementById('photo-container');
-
-    function showPhotoAfterAnimation() {
-      photoContainer.style.display = 'initial';
+ // Function to redirect to YouTube after 10 seconds
+    function redirectToYouTube() {
+      window.location.href = 'https://www.youtube.com/embed/27PPJApqRbY?si=93Ewbf8UZjmYDYIe';
     }
 
     // Call showPhotoAfterAnimation function after the box animation completes
     // Adjust the timing as needed
-    setTimeout(showPhotoAfterAnimation, 8000); // Example: Show photo after 5 seconds
+    setTimeout(redirectToYouTube, 20000); // Example: Show photo after 5 seconds
 
               
             }
